@@ -1,14 +1,12 @@
 
 body {
-     background-color: lightgreen;
-
+     background-color: rgb(87, 105, 93);
 }
 
 p {
     text-align: center;
     font-size: 40px;
     font-family: Georgia;
-
 }
 
 .centered {
@@ -20,5 +18,5 @@ p {
 }
 
 * {
-    color: white;
+    color: black;
 }
