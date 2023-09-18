@@ -7,7 +7,7 @@ tls = local()
 app = Flask(__name__)
 
 def getMeme():
-    url = "https://meme-api.herokuapp.com/gimme"
+    url = "https://meme-api.com/gimme"
     response = json.loads(requests.request("GET",url).text)
     meme_large = response["preview"][-2]
     subreddit = response["subreddit"]
